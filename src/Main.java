@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        MagicBox <Integer> magicBox = new MagicBox<>();
+        MagicBox <Integer> magicBox = new MagicBox<>(4);
 
         magicBox.add(10000);
         magicBox.add(14000);
